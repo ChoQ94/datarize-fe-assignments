@@ -1,0 +1,36 @@
+.controls {
+  display: flex;
+  margin-bottom: 1rem;
+
+  .datePickerGap {
+    width: 10px;
+  }
+
+  .searchButton {
+    margin-left: 10px;
+  }
+}
+
+.controls input {
+  height: 38px;
+  padding: 0 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* 로딩 중 메시지가 차트와 동일한 공간을 차지하도록 하여 레이아웃 이동 방지 */
+.loading {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
