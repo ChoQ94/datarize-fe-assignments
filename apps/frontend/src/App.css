@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+.divider {
+  margin: 40px 0;
+  border-color: #444;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
